@@ -45,7 +45,7 @@ int main() {
 
    * **Code::Blocks** 👉 [http://www.codeblocks.org/downloads/](http://www.codeblocks.org/downloads/)
      *(elige la versión “mingw-setup.exe”, que ya incluye compilador)*
-   * o **Dev-C++** 👉 [https://sourceforge.net/projects/orwelldevcpp/](https://sourceforge.net/projects/orwelldevcpp/).
+     
 2. Abre el archivo `bucle2.c` en el IDE.
 3. Usa las herramientas del IDE para encontrar y corregir los **2 errores de sintaxis**.
 4. Compila (Build) y ejecuta (Run) el programa desde el IDE.
