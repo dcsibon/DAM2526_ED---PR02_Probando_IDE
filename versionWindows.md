@@ -29,7 +29,7 @@ int main() {
 2. Intenta compilar desde **CMD**:
 
    ```bash
-   gcc bucle.c -o bucle.exe
+   gcc bucle2.c -o bucle2.exe
    ```
 
 3. Anota el **mensaje de error** que aparece.
@@ -38,15 +38,36 @@ int main() {
 
 ### Parte 2. Uso de un IDE
 
-1. Instala un IDE para C:
+1. **Instala Visual Studio Code**
 
-   * **Code::Blocks** 👉 [http://www.codeblocks.org/downloads/](http://www.codeblocks.org/downloads/)
-     *(elige la versión “mingw-setup.exe”, que ya incluye compilador)*
-     
-2. Abre el archivo `bucle2.c` en el IDE.
-3. Usa las herramientas del IDE para encontrar y corregir los **2 errores de sintaxis**.
-4. Compila (Build) y ejecuta (Run) el programa desde el IDE.
-5. Haz una **captura de la ejecución correcta** mostrando la suma final y el tiempo medido.
+   * Descarga el instalador desde 👉 [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download).
+   * Ejecuta el archivo `.exe` y durante la instalación marca la opción **“Add to PATH”**.
+
+2. **Abre Visual Studio Code** y entra en la sección de **Extensiones** (icono de bloques en la barra lateral izquierda o `Ctrl+Shift+X`).
+
+3. **Instala las siguientes extensiones de Microsoft** (como se ven en la captura):
+
+   * **C/C++** → soporte para IntelliSense, resaltado de errores y depuración.
+   * **C/C++ Extension Pack** → incluye configuraciones útiles adicionales.
+   * *(Opcional)* **C/C++ Themes** → cambia solo la apariencia de la extensión *(lo habitual es que se instale solo al instalar el Extension Pack)*.
+
+4. **Selecciona el compilador por defecto (solo la primera vez):**
+
+   * Al abrir un archivo `.c`, la extensión C/C++ puede mostrar una notificación preguntando qué compilador usar.
+   * Selecciona **GCC (MinGW-w64/WinLibs)** en la ruta donde lo instalaste (por ejemplo `C:\mingw64\bin\gcc.exe`).
+   * Si no aparece el aviso, puedes configurarlo desde:
+
+     * Menú **View > Command Palette…** (`Ctrl+Shift+P`).
+     * Busca **C/C++: Edit Configurations (UI)**.
+     * En **Compiler path** selecciona tu `gcc.exe`.
+
+5. **Abre el archivo `bucle2.c`** en VS Code.
+
+6. **Corrige los 2 errores de sintaxis**. El propio VS Code te marcará con subrayado rojo dónde están los fallos. Al posicionarse encima con el ratón muestra el mensaje de error de sintaxis.
+
+7. **Compila y ejecuta desde el mismo IDE con `Ctrl+F5`**. Aunque también, desde la pestaña inferior `Terminal` que tiene integrada, podéis lanzar, una vez compilado, directamente el programa escribiendo el comando `.\bucle2`.
+
+8. Haz una **captura de pantalla** mostrando la ejecución correcta, con la suma final y el tiempo medido.
 
 ---
 
