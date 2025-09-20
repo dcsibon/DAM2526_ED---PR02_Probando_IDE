@@ -1,4 +1,4 @@
-# 📘 Práctica ED02 – Del código fuente al ejecutable (con IDE)
+# 📘 Práctica ED02 – Del código fuente al ejecutable (con IDE) - versión Windows
 
 ### Parte 1. Código inicial con errores
 
@@ -31,6 +31,7 @@ int main() {
    ```bash
    gcc bucle.c -o bucle.exe
    ```
+
 3. Anota el **mensaje de error** que aparece.
 
 ---
