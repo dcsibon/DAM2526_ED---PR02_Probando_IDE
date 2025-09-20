@@ -50,7 +50,7 @@ int main() {
 
    * **C/C++** → soporte para IntelliSense, resaltado de errores y depuración.
    * **C/C++ Extension Pack** → incluye configuraciones útiles adicionales.
-   * *(Opcional)* **C/C++ Themes** → cambia solo la apariencia de la extensión *(lo habitual es que se instale solo al instalar el Extension Pack)*.
+   * *(Opcional)* **C/C++ Themes** → cambia solo la apariencia de la extensión.
 
 4. **Selecciona el compilador por defecto (solo la primera vez):**
 
