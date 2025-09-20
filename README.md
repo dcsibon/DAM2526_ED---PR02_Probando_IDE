@@ -18,3 +18,13 @@
 
 * Capturas de pantalla de la ejecución con error en CMD, corrección en el IDE y resultado final.
 * Respuestas a las preguntas de la reflexión.
+
+---
+
+⚠️ **Nota:** 
+
+En esta práctica vamos a utilizar VS Code como IDE. Aunque técnicamente, **Visual Studio Code no es un IDE completo**, sino un **editor de texto avanzado** que se convierte en un entorno de desarrollo gracias a sus extensiones. 
+
+No incluye de serie compiladores ni depuradores, pero al instalar extensiones como **C/C++ de Microsoft**, puede ofrecer casi las mismas funciones que un IDE tradicional (autocompletado, resaltado de errores, depuración, etc.). 
+
+La gran ventaja es que es ligero, multiplataforma y muy flexible, lo que explica que hoy en día sea una de las herramientas más usadas por programadores de distintos lenguajes.
