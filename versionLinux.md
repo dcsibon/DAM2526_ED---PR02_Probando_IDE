@@ -60,7 +60,7 @@ int main() {
 
 6. **Corrige los 2 errores de sintaxis**. El propio VS Code te marcará con subrayado rojo dónde están los fallos. Al posicionarse encima con el ratón muestra el mensaje de error de sintaxis.
 
-7. **Compila y ejecuta desde el mismo IDE con `Ctrl+F5`**. Aunque también, desde la pestaña inferior `Terminal` que tiene integrada, podéis lanzar, una vez compilado, directamente el programa escribiendo `./bucle2`.
+7. **Compila y ejecuta desde el mismo IDE con `Ctrl+F5`**. Aunque también, desde la pestaña inferior `Terminal` que tiene integrada, podéis lanzar, una vez compilado, directamente el programa escribiendo el comando `./bucle2`.
 
 8. Haz una **captura de pantalla** mostrando la ejecución correcta, con la suma final y el tiempo medido.
 
