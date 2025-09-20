@@ -1,4 +1,4 @@
-# 📘 Práctica ED02 – Del código fuente al ejecutable (con IDE) - Versióm macOS
+# 📘 Práctica ED02 – Del código fuente al ejecutable (con IDE) - versióm macOS
 
 ### Parte 1. Código inicial con errores
 
